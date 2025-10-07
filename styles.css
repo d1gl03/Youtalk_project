@@ -12,6 +12,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 16px 20px;
+
 }
 
 .header__button {
@@ -1042,4 +1043,84 @@ footer {
   font-size: 16px;
 }
 
+@media (min-width: 1280px) and (max-width: 1440px){
+  .header__button {
+    margin-left: 175px
+  }
+
+  .main__p {
+    max-width: 691px
+  }
+
+  .main__list {
+    max-width: 691px;
+  }
+
+  .main__nav_list_page_article {
+    max-width: 691px;
+  }
+
+  .main__container_page_article {
+    margin-left: 120px
+  }
+
+  .main__exerciseblock {
+    max-width: 691px
+  }
+
+  .header__container {
+    gap: 1px;
+    justify-content: normal;
+  }
+
+  .header_logo {
+    margin-left: 120px;
+    margin-right: 51px
+  }
+
+  .main__firstaside {
+    width: 252px
+  }
+
+  .main__secondaside {
+    width: 252px
+  }
+
+  .main__asidecontainer {
+    width: 282px
+  }
+
+  .main__secondaside_button {
+    width: 250px
+  }
+
+  .main__thirdaside {
+    width: 282px
+  }
+
+  .main__thirdaside_h2 {
+    left: 80px;
+    line-height: 1.3 !important;
+  }
+
+  .header__container {
+    width: 100%;
+    box-shadow: inset 0px -2px 0px #EFF2F2;
+    border-bottom: 1px solid #eee;
+  }
+
+  header {
+    border-bottom: none;
+    box-shadow: none;
+  }
+
+  .header__button {
+    transform: none;
+  }
+
+  .article_body {
+    max-width: 100%;
+  }
+
+}
 
